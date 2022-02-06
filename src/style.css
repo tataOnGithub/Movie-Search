@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #dbb89a;
+}
+
+p {
+    font-weight: bold;
+    margin: 5px;
+}
+
+input {
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 3px solid #c5976e;
+    padding: 5px 10px;
+}
+
+button {
+    background-color: #c5976e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #c5976e;
+}
+
+.form-class {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#years, #actors, #country-wrapper {
+    text-align: center;
+}
+
+#movies-length, #countries-population {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+}
